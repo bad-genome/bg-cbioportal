@@ -33,13 +33,4 @@
 <%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
 
 <div id="footer">
-    <a href="http://cbioportal.org">cBioPortal</a>
-    <span id="footer-span-version"> Version ${project.version}</span>
-    <%= GlobalProperties.getFooter() %>
-    <br/>
-    Questions and feedback: <%= GlobalProperties.getEmailContact() %>
-    <% if (GlobalProperties.getAppName().equalsIgnoreCase("public-portal")) { %>
-         | <a target="_blank" href="http://groups.google.com/group/cbioportal">User discussion group</a>
-         | <a target="_blank" href="https://github.com/cBioPortal/"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
-    <% } %>
 </div> <!--end of page_wrapper-->
